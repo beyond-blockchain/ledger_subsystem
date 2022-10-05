@@ -3,7 +3,7 @@ Ledger subsystem with Ethereum for BBc-1
 
 Files in this directory supports the ledger subsystem with Ethereum
 blockchain for BBc-1. Currently supports brownie, with infura.io to
-access to ropsten test network and mainnet of Ethereum.
+access to goerli test network and mainnet of Ethereum.
 
 Ledger subsystem
 ----------------
@@ -40,7 +40,7 @@ How to use
 For the example below, we assume that BBc-1 Core and the ledger
 subsystem are pip-installed, and ‘bbc_core.py’ is running at the user’s
 home directory (the “config.json” file resides under “~/.bbc1”). The
-default Ethereum network is ropsten test network.
+default Ethereum network is goerli test network.
 
 1. Set up brownie environment
 
@@ -59,8 +59,8 @@ set it using “account” command of eth_subsystem_tool.py.
 
 3. Load the account with ETH from the specified network
 
-For that, for ropsten, faucets like https://faucet.ropsten.be can be
-used. The balance can be confirmed with “balance” command of
+For that, for goerli, faucets like https://goerlifaucet.com can be used.
+The balance can be confirmed with “balance” command of
 eth_subsystem_tool.py.
 
 4. Deploy BBcAnchor smart contract

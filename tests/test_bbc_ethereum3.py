@@ -29,7 +29,7 @@ class Args:
 def default_config():
     args = Args()
     return bbc_ethereum.setup_config(args.workingdir, args.config,
-            'ropsten' if TEST_INFURA_PROJECT_ID != '' else 'development')
+            'goerli' if TEST_INFURA_PROJECT_ID != '' else 'development')
 
 
 def test_balance(default_config):

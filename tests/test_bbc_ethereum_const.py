@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Those who wants to run test_bbc_ethereum[1-2].py on ropsten test network
+# Those who wants to run test_bbc_ethereum[1-2].py on goerli test network
 # needs to define the following, and to load the account with an appropriate
-# amount of ropsten ETH.
+# amount of goerli ETH.
 TEST_PRIVATE_KEY = ''
 TEST_INFURA_PROJECT_ID = ''
 
