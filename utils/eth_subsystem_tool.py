@@ -49,8 +49,8 @@ class EthereumSubsystemTool(subsystem_tool_lib.SubsystemTool):
 
     def _add_additional_arguments(self):
         self.argparser.add_argument('-n', '--network', type=str,
-                default='ropsten',
-                help='network name (ropsten by default)')
+                default='goerli',
+                help='network name (goerli by default)')
 
         # account command
         parser = self.subparsers.add_parser('account',

@@ -16,7 +16,7 @@ TEST_CONFIG_FILE = 'test_config.json'
 from test_bbc_ethereum_const import TEST_PRIVATE_KEY
 from test_bbc_ethereum_const import TEST_INFURA_PROJECT_ID
 
-TEST_CONTRACT_ADDRESS = '0x31e12b7b5214248184DaBa8071605CE3E92AcDa3'
+TEST_CONTRACT_ADDRESS = '0x8c6DB26Ab0eAaDcB46438DDEEE7baD2271e2df71'
 
 
 class Args:
@@ -31,7 +31,7 @@ class Args:
 def default_config():
     args = Args()
     return bbc_ethereum.setup_config(args.workingdir, args.config,
-            'ropsten' if TEST_INFURA_PROJECT_ID != '' else 'development')
+            'goerli' if TEST_INFURA_PROJECT_ID != '' else 'development')
 
 
 def test_setup_account(default_config):

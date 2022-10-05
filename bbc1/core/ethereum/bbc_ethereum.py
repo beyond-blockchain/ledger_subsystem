@@ -92,7 +92,7 @@ def setup_brownie(bbcConfig, infura_project_id):
     Args:
         bbcConfig (BBcConfig): The configuration object.
         infura_project_id (str): INFURA project ID.
-            To be used for setting up 'ropsten' and 'mainnet' networks.
+            To be used for setting up 'goerli' and 'mainnet' networks.
 
     """
     config = bbcConfig.get_config()
